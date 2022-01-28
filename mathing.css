@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(199, 232, 247);
+}
+
+.container {
+    box-shadow: 4px 4px 4px 4px red;
+    width: 70%;
+    height: 25rem;
+    margin: 2rem auto;
+}
+
+h1 {
+    color:red;
+}
+
+.heading1 {
+    box-shadow: 4px 4px 4px 4px red;
+    width: 30%;
+    text-align: center;
+    margin: 2rem auto;
+
+}
+
+.operations {
+    box-shadow: 4px 4px 4px 4px red;
+    width: 80%;
+    height: 70%;
+    margin: 0rem auto;
+    
+}
+
+.operations h3 {
+    text-align: center;
+    color: red;
+    font-size: large;
+    
+}
+
+#number {
+    height: 3rem;
+    width: 3rem;
+    margin-left: 2rem;
+    border: none;
+    box-shadow: 2px 2px 2px 2px red;
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+
+#operation {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    box-shadow: 2px 2px 2px 2px red;
+    border: none;
+    text-align: center;
+    font-size: large;
+}
+
+h2 {
+    
+    float: right;
+    margin-top: 5.3rem;
+    margin-right: 22rem;
+    color: red;
+}
+
+.true {
+    
+    width: 20%;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    height: 3rem;
+    box-shadow: 2px 2px 2px 2px red;
+
+}
+
+.false {
+    
+    width: 20%;
+    float: right;
+    margin-right: 12rem;
+    margin-top: -2.9rem;
+    height: 3rem;
+    box-shadow: 2px 2px 2px 2px red;
+}
+
+.true input {
+    width: 30%;
+    float: right;
+    height: 100%;
+    margin-top: -2.3rem;
+    border: none;
+    color: green;
+    font-size: large;
+    text-align: center;
+}
+
+.true h4 {
+    font-size: 2rem;
+    color: red;
+}
+
+.false input {
+    width: 30%;
+    float: right;
+    height: 100%;
+    margin-top: -2.3rem;
+    border: none;
+    color: red;
+    font-size: large;
+    text-align: center;
+    
+    
+}
+
+.false h4 {
+    font-size: 2rem;
+    color: red;
+}
+
+.button {
+    float: right;
+    margin-top: -2rem;
+    margin-right: 10rem;
+    width: 4rem;
+    height: 2rem;
+    margin-top: -2.4rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px red;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 1px 1px red;
+    
+}
+
+
